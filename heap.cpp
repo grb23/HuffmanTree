@@ -12,9 +12,9 @@ using namespace std;
 // add an element to the tree
 void Heap::enqueue(HNode* n) {
     // add a new leaf
-    if(tree.size()==0) {
-        tree.push_back(0);
-    }
+    //if(tree.size()==0) {
+        //tree.push_back(0);
+    //}
     
     position = tree.size();
         
