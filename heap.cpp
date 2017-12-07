@@ -16,7 +16,7 @@ void Heap::enqueue(HNode* n) {
         tree.push_back(0);
     }
     
-    position = tree.size()-1;
+    position = tree.size();
         
     // store the new element in the vacant spot
     tree[position] = n;
